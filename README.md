@@ -25,5 +25,9 @@ and try
 ```
 $ echo `あしびきの山鳥の尾のしだり尾の ながながし夜をひとりかも寝む 柿本人麻呂` | mecab -d /usr/lib/mecab/dic/mecab-ipadic-neologd
 ```
+or try the following if you have a problem with Japanese characters via the terminal.
+```
+$ cat ashibikino.txt | mecab -d /usr/lib/mecab/dic/mecab-ipadic-neologd
+```
 
 TODO: add tips.
