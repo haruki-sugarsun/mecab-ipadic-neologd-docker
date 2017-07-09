@@ -10,7 +10,7 @@ This repository demonstrates
 Install Docker and try the following.
 ```
 $ docker build -t mecab-ipadic-neologd-docker:0.1 .
-$ docker run --name mecab-ipadic-neologd-docker -d -p 8885:80 mecab-ipadic-neologd-docker:0.1
+$ docker run -it --name mecab-ipadic-neologd-docker mecab-ipadic-neologd-docker:0.1
 ```
 
 ## Tips
