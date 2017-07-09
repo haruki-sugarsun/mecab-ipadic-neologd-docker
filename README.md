@@ -14,4 +14,16 @@ $ docker run -it --name mecab-ipadic-neologd-docker mecab-ipadic-neologd-docker:
 ```
 
 ## Tips
+### 
+After `docker run`, you will see a prompt of a user `user` already in a checked-out directory.
+You can run
+```
+$ ./bin/install-mecab-ipadic-neologd -n
+```
+to let `mecab-ipadic-neologd` build the dictionary.
+and try
+```
+$ echo `あしびきの山鳥の尾のしだり尾の ながながし夜をひとりかも寝む 柿本人麻呂` | mecab -d /usr/lib/mecab/dic/mecab-ipadic-neologd
+```
+
 TODO: add tips.
